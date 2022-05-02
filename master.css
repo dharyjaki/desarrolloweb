@@ -1,18 +1,48 @@
+/* selector por clase */
 .cabecera{
-  background-color:lavender;
+  background-color:green;
 }
 .navegadorPrincipal{
-  background-color: olive;
+  background-color: lightblue;
 }
 .principal{
   background-color: pink;
 }
 .noticias{
-  background-color: lavender;
+  background-color: green;
 }
 .nota{
-  background-color: olive;
+  background-color: lightblue;
 }
 .piePagina{
   background-color: pink;
+}
+/* selector convinador de descendientes  */
+nav li{
+  display: inline-block;
+}
+body{
+  background-color: purple;
+}
+/* selector por id */
+#TítuloPrincipal{
+  text-align: center;
+}
+/* multiplas selectores */
+h2,h3,h4,h5{
+  color: red;
+}
+/* selector de hijo */
+ul>li{
+  list-style: none;
+}
+/* selector usando clases y etiquetas */
+.galeria img{
+  width: 200px;
+  height: auto;
+}
+/* pseudoclases */
+.navegadorPrincipal li:hover{
+  background-color: orange;
+  transition: 1s easy-in;
 }
