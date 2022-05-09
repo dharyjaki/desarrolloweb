@@ -2,17 +2,33 @@
 .cabecera{
   background-color:green;
 }
+.cabecera img{
+  width: 100px;
+  border-radius: 100%;
+}
 .navegadorPrincipal{
   background-color: lightblue;
 }
 .principal{
   background-color: pink;
 }
+.galeria img{
+  width: 100px;
+  border-radius: 100%;
+}
 .noticias{
   background-color: green;
 }
+.noticias img{
+  width: 100px;
+  border-radius: 100%;
+}
 .nota{
   background-color: lightblue;
+}
+.nota img{
+  width: 100px;
+  border-radius: 100%;
 }
 .piePagina{
   background-color: pink;
@@ -24,11 +40,24 @@ nav li{
 body{
   background-color: purple;
 }
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 10%;
+  border-bottom: 10px dotted red;
+}
 /* selector por id */
 #TítuloPrincipal{
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-bottom: 5px dotted red;
   text-align: center;
+  margin: 5px;
 }
-/* multiplas selectores */
+/* multiples selectores */
 h2,h3,h4,h5{
   color: red;
 }
